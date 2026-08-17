@@ -2,17 +2,20 @@
 
 An end-to-end data engineering pipeline that collects weather data from an API, processes the data through Bronze, Silver, and Gold layers, orchestrates the workflow using Apache Airflow, and loads analytical data into SQL Server.
 
+## 🏗️ Architecture
 
-Architecture
-Technologies
-Project Structure
-Pipeline Process
-Airflow Orchestration
+```text
+OpenWeather API
+       ↓
+Python API Extraction
+       ↓
+Bronze Layer - Raw JSON
+       ↓
+Silver Layer - Cleaned Data
+       ↓
+Gold Layer - Aggregated Data
+       ↓
+Apache Airflow
+       ↓
 SQL Server
-Power BI Dashboard
-Docker
-Project Objective
-Security
-Future Improvements
-
-ME : Aryan Kumar 
+       
