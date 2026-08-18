@@ -1,8 +1,8 @@
-# 🌦️ Weather Data Engineering Pipeline
+#  Weather Data Engineering Pipeline
 
 An end-to-end data engineering pipeline that collects weather data from an API, processes the data through Bronze, Silver, and Gold layers, orchestrates the workflow using Apache Airflow, and loads analytical data into SQL Server.
 
-## 🏗️ Architecture
+##  Architecture
 
 ```text
 OpenWeather API
