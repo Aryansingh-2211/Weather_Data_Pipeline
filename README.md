@@ -19,3 +19,20 @@ Apache Airflow
        ↓
 SQL Server
        
+<<<<<<< Updated upstream
+=======
+
+##  Project Screenshots.....
+
+###  Airflow Pipeline
+
+The complete weather pipeline is orchestrated using Apache Airflow.
+
+[Airflow Pipeline](screenshots/airflow_pipeline.png)
+
+###  SQL Server
+
+Gold analytical tables are loaded into SQL Server.
+
+[SQL Server Results](screenshots/sql_server_result.png)
+>>>>>>> Stashed changes
