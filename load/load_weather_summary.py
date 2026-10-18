@@ -30,7 +30,7 @@ for _, row in df.iterrows():
 
 conn.commit()
 
-print("✅ Gold Weather Summary Loaded Successfully")
+print(" Gold Weather Summary Loaded Successfully")
 
 cursor.close()
 conn.close()

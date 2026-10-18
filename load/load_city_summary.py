@@ -36,7 +36,7 @@ for _, row in df.iterrows():
 
 conn.commit()
 
-print("✅ Gold City Summary Loaded Successfully")
+print("Gold City Summary Loaded Successfully")
 
 cursor.close()
 conn.close()

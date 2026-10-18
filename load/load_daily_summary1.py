@@ -10,10 +10,10 @@ df = pd.read_csv(
 conn = get_connection()
 cursor = conn.cursor()
 
-# Remove old data before loading the latest Gold data
+#Remove old data before loading the latest Gold data
 cursor.execute("DELETE FROM gold_daily_summary1")
 
-# Insert latest Gold data
+#Insert latest Gold data
 for _, row in df.iterrows():
 
     cursor.execute("""
@@ -38,7 +38,7 @@ for _, row in df.iterrows():
 
 conn.commit()
 
-print("✅ Gold Daily Summary Loaded Successfully")
+print(" Gold Daily Summary Loaded Successfully")
 
 cursor.close()
 conn.close()
